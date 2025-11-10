@@ -1,0 +1,44 @@
+.session-modal .ant-modal-body {
+  padding: 24px;
+}
+
+.active-session-alert {
+  text-align: center;
+}
+
+.active-session-alert p {
+  margin-bottom: 16px;
+  color: #666;
+  font-size: 14px;
+}
+
+.session-info {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.session-info div {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.session-info div:last-child {
+  margin-bottom: 0;
+}
+
+.start-button {
+  background: linear-gradient(135deg, #52c41a, #73d13d);
+  border: none;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.start-button:hover {
+  background: linear-gradient(135deg, #389e0d, #52c41a);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(82, 196, 26, 0.3);
+}

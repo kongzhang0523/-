@@ -1,0 +1,61 @@
+.transactions-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.filters-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.transactions-card {
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.amount-income {
+  color: #52c41a;
+  font-weight: 600;
+}
+
+.amount-expense {
+  color: #f5222d;
+  font-weight: 600;
+}
+
+.transaction-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .filters-card .ant-space {
+    width: 100%;
+  }
+  
+  .filters-card .ant-select,
+  .filters-card .ant-input-search {
+    width: 100% !important;
+  }
+}

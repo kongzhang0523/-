@@ -1,0 +1,68 @@
+.guide-modal .ant-modal-body {
+  padding: 24px;
+}
+
+.guide-content {
+  text-align: center;
+}
+
+.guide-header {
+  margin-bottom: 24px;
+}
+
+.guide-title {
+  color: #1890ff;
+  margin-bottom: 8px !important;
+}
+
+.guide-steps {
+  margin: 32px 0;
+  text-align: left;
+}
+
+.guide-steps .ant-steps-item-title {
+  font-weight: 500;
+}
+
+.guide-steps .ant-steps-item-description {
+  color: #666;
+  font-size: 13px;
+}
+
+.migration-info {
+  background: #f0f8ff;
+  padding: 16px;
+  border-radius: 6px;
+  margin: 24px 0;
+  border: 1px solid #d6e4ff;
+}
+
+.migration-tip {
+  margin: 0 !important;
+  color: #1890ff !important;
+  font-size: 14px;
+}
+
+.migrate-button {
+  background: linear-gradient(135deg, #1890ff, #40a9ff);
+  border: none;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.migrate-button:hover {
+  background: linear-gradient(135deg, #096dd9, #1890ff);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.3);
+}
+
+.security-notice {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.notice-text {
+  font-size: 12px;
+}

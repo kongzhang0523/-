@@ -1,0 +1,87 @@
+.assets-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.assets-summary {
+  margin-bottom: 16px;
+}
+
+.summary-card {
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+}
+
+.summary-content {
+  display: flex;
+  gap: 40px;
+}
+
+.summary-item {
+  text-align: center;
+}
+
+.summary-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.summary-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1890ff;
+}
+
+.assets-card {
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.asset-name {
+  font-weight: 500;
+  color: #262626;
+}
+
+.asset-description {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.asset-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .summary-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .summary-item {
+    text-align: left;
+  }
+}

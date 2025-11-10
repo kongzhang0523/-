@@ -1,0 +1,67 @@
+.sessions-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.sessions-card {
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.session-detail {
+  padding: 8px 0;
+}
+
+.detail-item {
+  display: flex;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.detail-item label {
+  font-weight: 500;
+  min-width: 80px;
+  color: #666;
+}
+
+.detail-item span {
+  flex: 1;
+  color: #333;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .header-content .ant-btn {
+    align-self: flex-start;
+  }
+  
+  .detail-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .detail-item label {
+    min-width: auto;
+  }
+}
